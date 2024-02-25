@@ -1,0 +1,32 @@
+{
+  "name": "@toolset/limbus-company-wiki",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@polaris_liu/toolcat": "1.0.1",
+    "@unocss/nuxt": "^0.58.5",
+    "nuxt": "^3.10.3",
+    "nuxt-icons": "^3.2.1",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@esbuild-kit/cjs-loader": "latest",
+    "commitizen": "latest",
+    "cz-conventional-changelog": "latest",
+    "fast-glob": "latest",
+    "husky": "latest"
+  }
+}
