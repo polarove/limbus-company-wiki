@@ -12,21 +12,28 @@
   "license": "MIT",
   "dependencies": {
     "@nuxtjs/color-mode": "^3.3.2",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "@pinia/nuxt": "^0.5.1",
     "@polaris_liu/toolcat": "1.0.1",
     "@unocss/nuxt": "^0.58.5",
+    "@vueuse/nuxt": "^10.9.0",
+    "element-plus": "^2.5.6",
     "nuxt": "^3.10.3",
     "nuxt-icons": "^3.2.1",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "sass": "^1.71.1",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@element-plus/nuxt": "^1.0.7",
     "@esbuild-kit/cjs-loader": "latest",
+    "@iconify-json/ep": "^1.1.14",
+    "@iconify-json/mdi": "^1.1.64",
     "commitizen": "latest",
     "cz-conventional-changelog": "latest",
     "fast-glob": "latest",
-    "husky": "latest"
+    "husky": "latest",
+    "sass": "^1.71.1"
   }
 }

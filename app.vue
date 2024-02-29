@@ -1,11 +1,20 @@
 <template>
-  <div>
-    {{ StrUtil.isNotEmpty('') }}
-  </div>
+  <nuxt-page />
 </template>
 
 <script setup lang="ts">
-import { StrUtil } from '@polaris_liu/toolcat'
+useSeoMeta({
+  title: '非官方维基百科 - 边狱公司'
+})
+useHead({
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/logo.png'
+    }
+  ]
+})
 </script>
 
 <style lang="scss" scoped></style>
