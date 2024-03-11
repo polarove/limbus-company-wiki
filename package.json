@@ -7,14 +7,15 @@
     "dev": "nuxt dev --port 3001",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "yarn generate && node build/compress.js"
   },
   "license": "MIT",
   "dependencies": {
     "@nuxtjs/color-mode": "^3.3.2",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
     "@pinia/nuxt": "^0.5.1",
-    "@polaris_liu/toolcat": "1.0.1",
+    "@polaris_liu/toolcat": "1.0.12",
     "@unocss/nuxt": "^0.58.5",
     "@vueuse/nuxt": "^10.9.0",
     "element-plus": "^2.5.6",

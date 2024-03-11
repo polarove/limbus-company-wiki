@@ -4,7 +4,8 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: '非官方维基百科 - 边狱公司'
+  title: '中文维基百科 - 边狱公司',
+  description: '边狱公司中文维基'
 })
 useHead({
   link: [

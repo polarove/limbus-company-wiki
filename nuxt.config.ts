@@ -3,11 +3,15 @@ import { resolve } from 'path'
 export default defineNuxtConfig({
   devtools: { enabled: false },
   alias: {
+    '@': resolve(__dirname, './'),
     '@css': resolve(__dirname, './assets/css'),
     '@scss': resolve(__dirname, './assets/scss'),
     '@images': resolve(__dirname, './assets/images')
   },
   css: ['@css/normalize.css', '@css/scrollbar.css'],
+  colorMode: {
+    classSuffix: ''
+  },
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',

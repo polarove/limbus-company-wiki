@@ -1438,10 +1438,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@polaris_liu/toolcat@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@polaris_liu/toolcat/-/toolcat-1.0.1.tgz#128c670b0ac2de95140347cb1c2bb0a55ed48b5e"
-  integrity sha512-rlj1gxRv7frF1Zbavpa0UaUPHs1s+RCQzBfDB7d6KlESGivaybIpsTjIpSwb+vZRnQDbadcLOI3N1/Tx47a8CA==
+"@polaris_liu/toolcat@1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@polaris_liu/toolcat/-/toolcat-1.0.12.tgz#23b577b23f36f31cfb4328aa84fae8628222ece2"
+  integrity sha512-QLiVaZeph54ZGokJWZ099AgMA5iHJok1v1Fs+PBqaD5935jJAy0EcvslJ8KOCwHJyBsujmqTx2dKbJk6rhV3CQ==
   dependencies:
     "@types/node" latest
     "@vue/shared" latest
